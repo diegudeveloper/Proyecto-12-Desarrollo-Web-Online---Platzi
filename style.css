@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;      
+    box-sizing: content-box;  
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    /*background: #1b2127;*/
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0;  
+}
+
+
+ol, ul {
+    list-style: none;
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+a {
+    /*color: #fafafa;*/
+    color: #000;
+    text-decoration: none;
+}
+
+.menu {
+    height: inherit;
+}
+
+
+h1 {
+    width: 40%;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    /*padding: 0 20px;*/
+}
+
+.hero {
+    width: 100%;
+    /*border: 5px solid blue;*/
+    /*border-radius: 15px;*/
+    margin-bottom: 80px;
+    padding: 20px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hero .container-texto-main {
+    width: 45%;
+    height: 100%;
+}
+
+.hero .container-texto-main h1 {
+    width: 100%;
+    height: 100%;
+}
+
+.hero .container-img-hero {
+    width: 55%;
+    height: 100%;
+}
+
+.hero .container-img-hero img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.portolio {
+    width: 100%;
+    box-sizing: content-box;
+    margin: 20px 2px;
+    margin-bottom: 80px;
+    
+}
+
+.presentacion {
+    background: white;
+    
+}
+
+.project {
+    box-sizing: content-box;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px 0px #d4cdd4
+}    
+
+.box-text {
+    width: 60%;
+    text-align: justify;  
+    padding: 10px 15px;     
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.project-course {
+    margin: 10px 0;
+    width: 50%;
+    font-size: 16px;
+}
+
+.project-date {
+    margin: 10px 0;
+    width: 50%;
+    font-size: 16px;
+}
+
+.project-url {
+    margin: 10px 0;
+    width: 50%;
+    font-size: 16px;
+}
+
+.project-description {
+    font-size: 18px;
+    width: 100%;
+}
+
+.project-imageContainer {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.project-imageContainer img {
+    width: 70%;
+    height: 70%;
+    max-width: 100%;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.experie {
+    width: 100%;
+    box-sizing: content-box;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    
+    margin-bottom: 40px;
+}
+
+.event {
+    border: 1px solid black;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #f4fbff;
+    /*align-items: center;
+    justify-content: center;
+    /*padding: 10px 20px;*/
+    box-shadow: 4px 4px 0px 0px #ab9fab;
+    color: #FFFFFF
+}
+
+.event-imageContainer {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.event-imageContainer img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15 0 15px 0;
+}
+
+.event-list-title {
+    /*margin-left: 5px;*/
+    margin-top: 40px;
+    margin-bottom: -20px;
+    
+}
+
+.box-event {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    color: #000;
+}
+
+
+.event-description {
+    margin: 20px 0;
+    text-align: left;
+    color: #000;
+    margin: 20px;
+}
+
+
+
+.event img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.event-url {
+    color: black;
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    color: #056fff;
+
+    
+    
+}
+
+.box-event a{
+    display: inline-block;
+    margin: auto;
+    
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.event-title {
+    margin: 20px;
+}
+
+
+.contact {
+    width: 100%;
+    height: 150px;
+    background: #056fff;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+
+.form-email {
+    margin: 0 30px;
+}
+
+.form-email h3 {
+    margin-bottom: 10px;
+    
+}
+
+.form-email input {
+    height: 20px;
+    background-image: url('img/redes sociales/envelope-solid.svg');
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    padding: 5px 45px;
+}
+
+.iconos {
+    /*border: 1px solid red*/
+    margin-right: 25%;
+
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid white;*/
+    margin-right: 50px;
+    
+}
+
+.social-link.twitter {
+    background-image: url('img/redes sociales/twitter-brands.svg');
+    background-size: 50px 50px;
+}
+.social-link.facebook {
+    background-image: url('img/redes sociales/facebook-f-brands.svg');
+    background-size: 50px 50px;
+}
+.social-link.github {
+    background-image: url('img/redes sociales/github-brands.svg');
+    background-size: 50px 50px;
+}
+.social-link.instagram {
+    background-image: url('img/redes sociales/instagram-brands.svg');
+    background-size: 50px 50px;
+}
+
+.form-email button {
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    padding: 5px;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+footer .footer {
+    width: 100%;
+    height: auto;
+
+    padding: 15px 10px;
+    background-color: #000;
+}
+
+footer .footer h2 {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+footer .footer span {
+    color: #f7e811;
+    font-size: 16px;
+}
+
+
+/***Responsive Desing***/
+
