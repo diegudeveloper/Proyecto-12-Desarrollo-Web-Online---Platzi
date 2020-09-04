@@ -8,6 +8,10 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
 
+    header input {
+        display: none;
+    }
+    
     .hero .container-texto-main {
         width: 60%;
     }
@@ -56,6 +60,57 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    header div .logo {
+        display: none;
+    }
+
+    header .menu {
+        width: 100%;
+        height: auto;
+        z-index: 100;
+        padding-top: 27px;
+
+        transform: translateY(-127%);
+        transition: all 0.5s;
+    }
+
+    #btn-menu:checked ~ .menu {
+        transform: translateY(0);
+    }
+
+    header .menu ol {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #026fff;
+    }
+
+    header .menu ol li {
+        padding: 15px;
+    }
+
+    header .menu ol li a {
+        color: #fff;
+    }
+
+    header input {
+        display: none;
+    }
+
+    header .bottom {
+        width: 100%;
+    }
+
+    header .bottom img {
+        display: block;
+        width: 10%;
+    }
 
     .container {
         width: 90%;
